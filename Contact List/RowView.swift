@@ -13,9 +13,9 @@ struct RowView: View {
     
     var body: some View {
         HStack(){
-            Image("Contacto").resizable().frame(width: 55, height: 55).clipShape(Circle()).shadow(radius: 4).padding()
+            contact.image.resizable().frame(width: 55, height: 55).clipShape(Circle()).shadow(radius: 4).padding()
             VStack(alignment: .leading){
-                Text(contact.name ?? "")
+                Text(contact.name )
                     .font(.title)
             }
             Spacer()
@@ -26,7 +26,7 @@ struct RowView: View {
     
     struct RowView_Previews: PreviewProvider {
         static var previews: some View {
-            RowView(contact: contactData(name: "Carlos", image: Image(systemName: "Contacto"))).previewLayout(.fixed(width: 400, height: 60))
+            RowView(contact: contactData(name: "Carlos", image: Image(systemName: "Contacto"), number: "657324183")).previewLayout(.fixed(width: 400, height: 60))
                                                                                         
         }
     }

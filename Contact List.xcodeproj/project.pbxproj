@@ -14,6 +14,7 @@
 		7161F0B429FEC4FE00A89489 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161F0B329FEC4FE00A89489 /* ListView.swift */; };
 		7161F0D029FED2A200A89489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7161F0CF29FED2A200A89489 /* Assets.xcassets */; };
 		7161F0D229FED2D900A89489 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 7161F0D129FED2D900A89489 /* Preview Content */; };
+		7161F0D629FEE66600A89489 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161F0D529FEE66600A89489 /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7161F0B329FEC4FE00A89489 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		7161F0CF29FED2A200A89489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../copia/copia/Assets.xcassets; sourceTree = "<group>"; };
 		7161F0D129FED2D900A89489 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		7161F0D529FEE66600A89489 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7161F09E29FEAACA00A89489 /* ContentView.swift */,
 				7161F0AD29FEB76E00A89489 /* RowView.swift */,
 				7161F0B329FEC4FE00A89489 /* ListView.swift */,
+				7161F0D529FEE66600A89489 /* ListDetailView.swift */,
 				7161F0CF29FED2A200A89489 /* Assets.xcassets */,
 				7161F0D129FED2D900A89489 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				7161F0AC29FEB52200A89489 /* Contact.swift in Sources */,
 				7161F09F29FEAACA00A89489 /* ContentView.swift in Sources */,
 				7161F0B429FEC4FE00A89489 /* ListView.swift in Sources */,
+				7161F0D629FEE66600A89489 /* ListDetailView.swift in Sources */,
 				7161F09D29FEAACA00A89489 /* Contact_ListApp.swift in Sources */,
 				7161F0AE29FEB76E00A89489 /* RowView.swift in Sources */,
 			);
