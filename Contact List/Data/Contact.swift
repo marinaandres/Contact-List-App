@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct contactData {
-    var name:String?
-    var image:Image?
+    var name:String
+    var image:Image
+    var number:String
 }
